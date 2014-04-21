@@ -1,0 +1,19 @@
+{
+    "name": "vda/util",
+    "type": "library",
+    "description": "Some usefull utils",
+    "keywords": ["util"],
+    "require": {
+        "php": ">=5.3.23"
+    },
+    "autoload": {
+        "psr-0": { "": "" }
+    },
+    "target-dir": "Vda/Util",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-trunk": "1-dev"
+        }
+    }
+}
