@@ -24,6 +24,8 @@ class Type
             return Type::DOUBLE;
         } elseif (is_bool($value)) {
             return Type::BOOLEAN;
+        } elseif ($value instanceof \DateTimeInterface) {
+            return Type::DATE;
         }
 
         return Type::STRING;
